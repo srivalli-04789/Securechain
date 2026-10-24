@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-bg text-ink font-sans antialiased; }
+::-webkit-scrollbar { height: 8px; width: 8px } ::-webkit-scrollbar-thumb { background:#1B5148; border-radius:8px }
+@keyframes pulseNode { 0%,100%{opacity:.55} 50%{opacity:1} } .node { animation: pulseNode 3s ease-in-out infinite }
